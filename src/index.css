@@ -1,0 +1,18 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.btn a {
+  padding: 0;
+}
+
+.btn button {
+  cursor: pointer;
+  padding: 12px 24px;
+  margin-right: 8px;
+}
+
+.btn:last-child button {
+  margin-right: 0;
+}

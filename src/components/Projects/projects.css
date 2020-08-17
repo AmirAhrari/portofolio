@@ -1,0 +1,68 @@
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  padding-top: 68px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-card {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 8px;
+  background-clip: border-box;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  padding: 8px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card h3 {
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.btn-action {
+  margin-top: auto;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-action button {
+  padding: 8px 22px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 24px;
+}
+
+@media screen and (max-width: 992px) {
+  .flex-box {
+    flex-direction: column;
+    margin: 0;
+  }
+}
